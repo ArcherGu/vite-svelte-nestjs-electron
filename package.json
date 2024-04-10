@@ -1,0 +1,51 @@
+{
+  "name": "vite-svelte-nestjs-electron",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.15.6",
+  "description": "Vite + Svelte + Electron with Doubleshot, so fast! ⚡",
+  "main": "dist/main/index.cjs",
+  "scripts": {
+    "dev": "rimraf dist && vite",
+    "debug": "rimraf dist && vite -- --dsb-debug",
+    "build": "rimraf dist && vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@doubleshot/nest-electron": "^0.2.5",
+    "@nestjs/common": "^10.3.7",
+    "@nestjs/core": "^10.3.7",
+    "@nestjs/microservices": "^10.3.7",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@lightwing/eslint-config": "^1.0.40",
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "@tsconfig/svelte": "^5.0.2",
+    "electron": "^29.2.0",
+    "electron-builder": "^24.13.3",
+    "eslint": "^9.0.0",
+    "lint-staged": "^15.2.2",
+    "rimraf": "^5.0.5",
+    "simple-git-hooks": "^2.11.1",
+    "svelte": "^4.2.12",
+    "svelte-check": "^3.6.7",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-doubleshot": "^0.0.13"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,vue,md,json,yml}": [
+      "eslint --fix"
+    ]
+  }
+}
