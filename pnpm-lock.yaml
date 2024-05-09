@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@doubleshot/nest-electron':
         specifier: ^0.2.5
-        version: 0.2.5(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.8(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.8)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.8(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.8)(reflect-metadata@0.2.2)(rxjs@7.8.1))(electron@30.0.2)(rxjs@7.8.1)
+        version: 0.2.5(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.8(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.8)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.8(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.8)(reflect-metadata@0.2.2)(rxjs@7.8.1))(electron@30.0.3)(rxjs@7.8.1)
       '@nestjs/common':
         specifier: ^10.3.7
         version: 10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1)
@@ -32,13 +32,13 @@ importers:
         version: 1.0.49(@vue/compiler-sfc@3.4.22)(eslint@9.2.0)(svelte@4.2.16)(typescript@5.4.5)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.0.2
-        version: 3.1.0(svelte@4.2.16)(vite@5.2.11(@types/node@20.12.8))
+        version: 3.1.0(svelte@4.2.16)(vite@5.2.11(@types/node@20.12.11))
       '@tsconfig/svelte':
         specifier: ^5.0.2
         version: 5.0.4
       electron:
         specifier: ^30.0.0
-        version: 30.0.2
+        version: 30.0.3
       electron-builder:
         specifier: ^24.13.3
         version: 24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3))
@@ -68,10 +68,10 @@ importers:
         version: 5.4.5
       vite:
         specifier: ^5.2.0
-        version: 5.2.11(@types/node@20.12.8)
+        version: 5.2.11(@types/node@20.12.11)
       vite-plugin-doubleshot:
         specifier: ^0.0.13
-        version: 0.0.13(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.2)(postcss@8.4.38)(typescript@5.4.5)(vite@5.2.11(@types/node@20.12.8))
+        version: 0.0.13(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.3)(postcss@8.4.38)(typescript@5.4.5)(vite@5.2.11(@types/node@20.12.11))
 
 packages:
 
@@ -949,6 +949,9 @@ packages:
   '@types/ms@0.7.34':
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
 
+  '@types/node@20.12.11':
+    resolution: {integrity: sha512-vDg9PZ/zi+Nqp6boSOT7plNuthRugEKixDv5sFTIpkE89MmNtEArAShI4mxuX2+UrLEe9pxC1vm2cjm9YlWbJw==}
+
   '@types/node@20.12.8':
     resolution: {integrity: sha512-NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==}
 
@@ -1540,8 +1543,8 @@ packages:
   electron-to-chromium@1.4.760:
     resolution: {integrity: sha512-xF6AWMVM/QGQseTPgXjUewfNjCW2fgUcV/z5cSG0r+SiYcgtvcmRAL3oH/MSZwHBBD+fyKTXdQ4qGENJMSedEQ==}
 
-  electron@30.0.2:
-    resolution: {integrity: sha512-zv7T+GG89J/hyWVkQsLH4Y/rVEfqJG5M/wOBIGNaDdqd8UV9/YZPdS7CuFeaIj0H9LhCt95xkIQNpYB/3svOkQ==}
+  electron@30.0.3:
+    resolution: {integrity: sha512-h+suwx6e0fnv/9wi0/cmCMtG+4LrPzJZa+3DEEpxcPcP+pcWnBI70t8QspxgMNIh2wzXLMD9XVqrLkEbiBAInw==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -3512,7 +3515,7 @@ snapshots:
       ajv: 6.12.6
       ajv-keywords: 3.5.2(ajv@6.12.6)
 
-  '@doubleshot/builder@0.0.11(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.2)(postcss@8.4.38)(typescript@5.4.5)':
+  '@doubleshot/builder@0.0.11(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.3)(postcss@8.4.38)(typescript@5.4.5)':
     dependencies:
       '@swc/core': 1.4.13
       bundle-require: 4.0.2(esbuild@0.18.20)
@@ -3525,7 +3528,7 @@ snapshots:
       tsup: 7.2.0(@swc/core@1.4.13)(postcss@8.4.38)(typescript@5.4.5)
       wait-on: 7.2.0
     optionalDependencies:
-      electron: 30.0.2
+      electron: 30.0.3
       electron-builder: 24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3))
     transitivePeerDependencies:
       - '@swc/helpers'
@@ -3535,12 +3538,12 @@ snapshots:
       - ts-node
       - typescript
 
-  '@doubleshot/nest-electron@0.2.5(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.8(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.8)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.8(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.8)(reflect-metadata@0.2.2)(rxjs@7.8.1))(electron@30.0.2)(rxjs@7.8.1)':
+  '@doubleshot/nest-electron@0.2.5(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.8(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.8)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.8(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.8)(reflect-metadata@0.2.2)(rxjs@7.8.1))(electron@30.0.3)(rxjs@7.8.1)':
     dependencies:
       '@nestjs/common': 10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nestjs/core': 10.3.8(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/microservices@10.3.8)(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nestjs/microservices': 10.3.8(@nestjs/common@10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.8)(reflect-metadata@0.2.2)(rxjs@7.8.1)
-      electron: 30.0.2
+      electron: 30.0.3
       rxjs: 7.8.1
 
   '@electron/asar@3.2.9':
@@ -4056,26 +4059,26 @@ snapshots:
       - supports-color
       - typescript
 
-  '@sveltejs/vite-plugin-svelte-inspector@2.1.0(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.16)(vite@5.2.11(@types/node@20.12.8)))(svelte@4.2.16)(vite@5.2.11(@types/node@20.12.8))':
+  '@sveltejs/vite-plugin-svelte-inspector@2.1.0(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.16)(vite@5.2.11(@types/node@20.12.11)))(svelte@4.2.16)(vite@5.2.11(@types/node@20.12.11))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 3.1.0(svelte@4.2.16)(vite@5.2.11(@types/node@20.12.8))
+      '@sveltejs/vite-plugin-svelte': 3.1.0(svelte@4.2.16)(vite@5.2.11(@types/node@20.12.11))
       debug: 4.3.4
       svelte: 4.2.16
-      vite: 5.2.11(@types/node@20.12.8)
+      vite: 5.2.11(@types/node@20.12.11)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.16)(vite@5.2.11(@types/node@20.12.8))':
+  '@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.16)(vite@5.2.11(@types/node@20.12.11))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 2.1.0(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.16)(vite@5.2.11(@types/node@20.12.8)))(svelte@4.2.16)(vite@5.2.11(@types/node@20.12.8))
+      '@sveltejs/vite-plugin-svelte-inspector': 2.1.0(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.16)(vite@5.2.11(@types/node@20.12.11)))(svelte@4.2.16)(vite@5.2.11(@types/node@20.12.11))
       debug: 4.3.4
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.9
       svelte: 4.2.16
       svelte-hmr: 0.16.0(svelte@4.2.16)
-      vite: 5.2.11(@types/node@20.12.8)
-      vitefu: 0.2.5(vite@5.2.11(@types/node@20.12.8))
+      vite: 5.2.11(@types/node@20.12.11)
+      vitefu: 0.2.5(vite@5.2.11(@types/node@20.12.11))
     transitivePeerDependencies:
       - supports-color
 
@@ -4143,7 +4146,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 20.12.8
+      '@types/node': 20.12.11
       '@types/responselike': 1.0.3
 
   '@types/debug@4.1.12':
@@ -4167,13 +4170,17 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.12.8
+      '@types/node': 20.12.11
 
   '@types/mdast@3.0.15':
     dependencies:
       '@types/unist': 2.0.10
 
   '@types/ms@0.7.34': {}
+
+  '@types/node@20.12.11':
+    dependencies:
+      undici-types: 5.26.5
 
   '@types/node@20.12.8':
     dependencies:
@@ -4183,7 +4190,7 @@ snapshots:
 
   '@types/plist@3.0.5':
     dependencies:
-      '@types/node': 20.12.8
+      '@types/node': 20.12.11
       xmlbuilder: 15.1.1
     optional: true
 
@@ -4191,7 +4198,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 20.12.8
+      '@types/node': 20.12.11
 
   '@types/semver@7.5.8': {}
 
@@ -4202,7 +4209,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 20.12.8
+      '@types/node': 20.12.11
     optional: true
 
   '@typescript-eslint/eslint-plugin@7.8.0(@typescript-eslint/parser@7.8.0(eslint@9.2.0)(typescript@5.4.5))(eslint@9.2.0)(typescript@5.4.5)':
@@ -4902,10 +4909,10 @@ snapshots:
 
   electron-to-chromium@1.4.760: {}
 
-  electron@30.0.2:
+  electron@30.0.3:
     dependencies:
       '@electron/get': 2.0.3
-      '@types/node': 20.12.8
+      '@types/node': 20.12.11
       extract-zip: 2.0.1
     transitivePeerDependencies:
       - supports-color
@@ -5492,7 +5499,7 @@ snapshots:
       es6-error: 4.1.1
       matcher: 3.0.0
       roarr: 2.15.4
-      semver: 7.6.0
+      semver: 7.6.1
       serialize-error: 7.0.1
     optional: true
 
@@ -6745,10 +6752,10 @@ snapshots:
       extsprintf: 1.4.1
     optional: true
 
-  vite-plugin-doubleshot@0.0.13(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.2)(postcss@8.4.38)(typescript@5.4.5)(vite@5.2.11(@types/node@20.12.8)):
+  vite-plugin-doubleshot@0.0.13(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.3)(postcss@8.4.38)(typescript@5.4.5)(vite@5.2.11(@types/node@20.12.11)):
     dependencies:
-      '@doubleshot/builder': 0.0.11(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.2)(postcss@8.4.38)(typescript@5.4.5)
-      vite: 5.2.11(@types/node@20.12.8)
+      '@doubleshot/builder': 0.0.11(electron-builder@24.13.3(electron-builder-squirrel-windows@24.13.3(dmg-builder@24.13.3)))(electron@30.0.3)(postcss@8.4.38)(typescript@5.4.5)
+      vite: 5.2.11(@types/node@20.12.11)
     transitivePeerDependencies:
       - '@swc/helpers'
       - debug
@@ -6759,18 +6766,18 @@ snapshots:
       - ts-node
       - typescript
 
-  vite@5.2.11(@types/node@20.12.8):
+  vite@5.2.11(@types/node@20.12.11):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.17.2
     optionalDependencies:
-      '@types/node': 20.12.8
+      '@types/node': 20.12.11
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@5.2.11(@types/node@20.12.8)):
+  vitefu@0.2.5(vite@5.2.11(@types/node@20.12.11)):
     optionalDependencies:
-      vite: 5.2.11(@types/node@20.12.8)
+      vite: 5.2.11(@types/node@20.12.11)
 
   vue-eslint-parser@9.4.2(eslint@9.2.0):
     dependencies:
