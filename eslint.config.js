@@ -12,5 +12,6 @@ export default lightwing(
       'js_test',
       'local-data',
     ],
+    svelte: true,
   },
 )
