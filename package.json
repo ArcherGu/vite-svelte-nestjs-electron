@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@lightwing/eslint-config": "^1.0.52",
-    "@sveltejs/vite-plugin-svelte": "^3.1.0",
+    "@sveltejs/vite-plugin-svelte": "^4.0.0",
     "@tsconfig/svelte": "^5.0.4",
     "electron": "^33.0.0",
     "electron-builder": "^25.0.0",
