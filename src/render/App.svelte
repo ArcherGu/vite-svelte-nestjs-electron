@@ -1,19 +1,18 @@
-<script lang='ts'>
+<script lang="ts">
   import { onMount } from 'svelte'
   import logo from './assets/logo.png'
 
   const { sendMsg: sendMsgToMainProcess, onReplyMsg } = window.electron
 
-  let log = ''
-  let msg = ''
+  let log: string = $state('')
+  let msg: string = $state('')
 
   async function sendMsg() {
     try {
       log += `[render]: ${msg} \n`
       const data = await sendMsgToMainProcess(msg)
       log += `[main]: ${data} \n`
-    }
-    catch (error) {
+    } catch (error) {
       console.error(error)
     }
   }
@@ -25,12 +24,12 @@
   })
 </script>
 
-<img alt='logo' src={logo} class='logo' />
+<img alt="logo" src={logo} class="logo" />
 <h1>Vite + Svelte + Electron & Esbuild</h1>
-<textarea value={log} cols={60} rows={10} disabled={true} />
-<div style='margin-top:20px'>
-  <input bind:value={msg} type='text' placeholder='send msg to main process' />
-  <button style='margin-left:20px' on:click={sendMsg}> Send </button>
+<textarea value={log} cols={60} rows={10} disabled={true}></textarea>
+<div style="margin-top:20px">
+  <input bind:value={msg} type="text" placeholder="send msg to main process" />
+  <button style="margin-left:20px" onclick={sendMsg}> Send </button>
 </div>
 
 <style>
