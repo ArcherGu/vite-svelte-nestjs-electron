@@ -29,10 +29,10 @@ importers:
     devDependencies:
       '@lightwing/eslint-config':
         specifier: ^1.0.93
-        version: 1.0.93(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@vue/compiler-sfc@3.4.22)(eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.11.0))(eslint@9.16.0(jiti@1.21.6))(svelte-eslint-parser@0.43.0(svelte@5.11.0))(typescript@5.7.2)
+        version: 1.0.93(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@vue/compiler-sfc@3.4.22)(eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.11.2))(eslint@9.16.0(jiti@1.21.6))(svelte-eslint-parser@0.43.0(svelte@5.11.2))(typescript@5.7.2)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.0.1
-        version: 5.0.1(svelte@5.11.0)(vite@6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1))
+        version: 5.0.1(svelte@5.11.2)(vite@6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1))
       '@tsconfig/svelte':
         specifier: ^5.0.4
         version: 5.0.4
@@ -47,7 +47,7 @@ importers:
         version: 9.16.0(jiti@1.21.6)
       eslint-plugin-svelte:
         specifier: ^2.46.1
-        version: 2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.11.0)
+        version: 2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.11.2)
       lint-staged:
         specifier: ^15.2.10
         version: 15.2.11
@@ -59,10 +59,10 @@ importers:
         version: 2.11.1
       svelte:
         specifier: ^5.7.1
-        version: 5.11.0
+        version: 5.11.2
       svelte-check:
         specifier: ^4.1.1
-        version: 4.1.1(picomatch@4.0.2)(svelte@5.11.0)(typescript@5.7.2)
+        version: 4.1.1(picomatch@4.0.2)(svelte@5.11.2)(typescript@5.7.2)
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -687,8 +687,8 @@ packages:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
 
-  '@jridgewell/gen-mapping@0.3.5':
-    resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
+  '@jridgewell/gen-mapping@0.3.8':
+    resolution: {integrity: sha512-imAbBGkb+ebQyxKgzv5Hu2nmROxoDOXHh80evxdoXNOrvAnVx7zimzc1Oo5h9RlfV4vPXaE2iM5pOFbvOCClWA==}
     engines: {node: '>=6.0.0'}
 
   '@jridgewell/resolve-uri@3.1.2':
@@ -3766,8 +3766,8 @@ packages:
       svelte:
         optional: true
 
-  svelte@5.11.0:
-    resolution: {integrity: sha512-w4FYvEY1eKbgBZo8RY2iegaOe9sZu9yhDa70cAyW9gkPJc87w6/1rrfNI4uu985s/7U+4CggQDE7CPIbrPsnXw==}
+  svelte@5.11.2:
+    resolution: {integrity: sha512-kGWswlBaohYxZHML9jp8ZYXkwjKd+WTpyAK1CCDmNzsefZHQjvsa7kbrKUckcFloNmdzwQwaZq+NyunuNOE6lw==}
     engines: {node: '>=18'}
 
   synckit@0.6.2:
@@ -4136,10 +4136,10 @@ snapshots:
 
   '@ampproject/remapping@2.3.0':
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.5
+      '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@antfu/eslint-config@3.11.2(@eslint-react/eslint-plugin@1.17.3(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@unocss/eslint-plugin@0.64.1(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@vue/compiler-sfc@3.4.22)(eslint-plugin-format@0.1.2(eslint@9.16.0(jiti@1.21.6)))(eslint-plugin-react-hooks@5.1.0(eslint@9.16.0(jiti@1.21.6)))(eslint-plugin-react-refresh@0.4.16(eslint@9.16.0(jiti@1.21.6)))(eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.11.0))(eslint@9.16.0(jiti@1.21.6))(svelte-eslint-parser@0.43.0(svelte@5.11.0))(typescript@5.7.2)':
+  '@antfu/eslint-config@3.11.2(@eslint-react/eslint-plugin@1.17.3(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@unocss/eslint-plugin@0.64.1(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@vue/compiler-sfc@3.4.22)(eslint-plugin-format@0.1.2(eslint@9.16.0(jiti@1.21.6)))(eslint-plugin-react-hooks@5.1.0(eslint@9.16.0(jiti@1.21.6)))(eslint-plugin-react-refresh@0.4.16(eslint@9.16.0(jiti@1.21.6)))(eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.11.2))(eslint@9.16.0(jiti@1.21.6))(svelte-eslint-parser@0.43.0(svelte@5.11.2))(typescript@5.7.2)':
     dependencies:
       '@antfu/install-pkg': 0.5.0
       '@clack/prompts': 0.8.2
@@ -4183,8 +4183,8 @@ snapshots:
       eslint-plugin-format: 0.1.2(eslint@9.16.0(jiti@1.21.6))
       eslint-plugin-react-hooks: 5.1.0(eslint@9.16.0(jiti@1.21.6))
       eslint-plugin-react-refresh: 0.4.16(eslint@9.16.0(jiti@1.21.6))
-      eslint-plugin-svelte: 2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.11.0)
-      svelte-eslint-parser: 0.43.0(svelte@5.11.0)
+      eslint-plugin-svelte: 2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.11.2)
+      svelte-eslint-parser: 0.43.0(svelte@5.11.2)
     transitivePeerDependencies:
       - '@eslint/json'
       - '@typescript-eslint/utils'
@@ -4771,7 +4771,7 @@ snapshots:
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
 
-  '@jridgewell/gen-mapping@0.3.5':
+  '@jridgewell/gen-mapping@0.3.8':
     dependencies:
       '@jridgewell/set-array': 1.2.1
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -4788,9 +4788,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@lightwing/eslint-config@1.0.93(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@vue/compiler-sfc@3.4.22)(eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.11.0))(eslint@9.16.0(jiti@1.21.6))(svelte-eslint-parser@0.43.0(svelte@5.11.0))(typescript@5.7.2)':
+  '@lightwing/eslint-config@1.0.93(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@vue/compiler-sfc@3.4.22)(eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.11.2))(eslint@9.16.0(jiti@1.21.6))(svelte-eslint-parser@0.43.0(svelte@5.11.2))(typescript@5.7.2)':
     dependencies:
-      '@antfu/eslint-config': 3.11.2(@eslint-react/eslint-plugin@1.17.3(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@unocss/eslint-plugin@0.64.1(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@vue/compiler-sfc@3.4.22)(eslint-plugin-format@0.1.2(eslint@9.16.0(jiti@1.21.6)))(eslint-plugin-react-hooks@5.1.0(eslint@9.16.0(jiti@1.21.6)))(eslint-plugin-react-refresh@0.4.16(eslint@9.16.0(jiti@1.21.6)))(eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.11.0))(eslint@9.16.0(jiti@1.21.6))(svelte-eslint-parser@0.43.0(svelte@5.11.0))(typescript@5.7.2)
+      '@antfu/eslint-config': 3.11.2(@eslint-react/eslint-plugin@1.17.3(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@unocss/eslint-plugin@0.64.1(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@vue/compiler-sfc@3.4.22)(eslint-plugin-format@0.1.2(eslint@9.16.0(jiti@1.21.6)))(eslint-plugin-react-hooks@5.1.0(eslint@9.16.0(jiti@1.21.6)))(eslint-plugin-react-refresh@0.4.16(eslint@9.16.0(jiti@1.21.6)))(eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.11.2))(eslint@9.16.0(jiti@1.21.6))(svelte-eslint-parser@0.43.0(svelte@5.11.2))(typescript@5.7.2)
       '@eslint-react/eslint-plugin': 1.17.3(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       '@unocss/eslint-plugin': 0.64.1(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       eslint: 9.16.0(jiti@1.21.6)
@@ -4976,23 +4976,23 @@ snapshots:
       - supports-color
       - typescript
 
-  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.11.0)(vite@6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1)))(svelte@5.11.0)(vite@6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1))':
+  '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.11.2)(vite@6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1)))(svelte@5.11.2)(vite@6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 5.0.1(svelte@5.11.0)(vite@6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1))
+      '@sveltejs/vite-plugin-svelte': 5.0.1(svelte@5.11.2)(vite@6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1))
       debug: 4.3.7
-      svelte: 5.11.0
+      svelte: 5.11.2
       vite: 6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.11.0)(vite@6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1))':
+  '@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.11.2)(vite@6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.11.0)(vite@6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1)))(svelte@5.11.0)(vite@6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1))
+      '@sveltejs/vite-plugin-svelte-inspector': 4.0.1(@sveltejs/vite-plugin-svelte@5.0.1(svelte@5.11.2)(vite@6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1)))(svelte@5.11.2)(vite@6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1))
       debug: 4.3.7
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.14
-      svelte: 5.11.0
+      svelte: 5.11.2
       vite: 6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1)
       vitefu: 1.0.3(vite@6.0.3(@types/node@22.10.0)(jiti@1.21.6)(tsx@4.19.0)(yaml@2.6.1))
     transitivePeerDependencies:
@@ -6434,7 +6434,7 @@ snapshots:
       regexp-ast-analysis: 0.7.1
       scslre: 0.3.0
 
-  eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.11.0):
+  eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.11.2):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.1(eslint@9.16.0(jiti@1.21.6))
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -6447,9 +6447,9 @@ snapshots:
       postcss-safe-parser: 6.0.0(postcss@8.4.49)
       postcss-selector-parser: 6.1.2
       semver: 7.6.3
-      svelte-eslint-parser: 0.43.0(svelte@5.11.0)
+      svelte-eslint-parser: 0.43.0(svelte@5.11.2)
     optionalDependencies:
-      svelte: 5.11.0
+      svelte: 5.11.2
     transitivePeerDependencies:
       - ts-node
 
@@ -8347,7 +8347,7 @@ snapshots:
 
   sucrase@3.35.0:
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.5
+      '@jridgewell/gen-mapping': 0.3.8
       commander: 4.1.1
       glob: 10.4.5
       lines-and-columns: 1.2.4
@@ -8371,19 +8371,19 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-check@4.1.1(picomatch@4.0.2)(svelte@5.11.0)(typescript@5.7.2):
+  svelte-check@4.1.1(picomatch@4.0.2)(svelte@5.11.2)(typescript@5.7.2):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 4.0.1
       fdir: 6.4.2(picomatch@4.0.2)
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 5.11.0
+      svelte: 5.11.2
       typescript: 5.7.2
     transitivePeerDependencies:
       - picomatch
 
-  svelte-eslint-parser@0.43.0(svelte@5.11.0):
+  svelte-eslint-parser@0.43.0(svelte@5.11.2):
     dependencies:
       eslint-scope: 7.2.2
       eslint-visitor-keys: 3.4.3
@@ -8391,9 +8391,9 @@ snapshots:
       postcss: 8.4.49
       postcss-scss: 4.0.9(postcss@8.4.49)
     optionalDependencies:
-      svelte: 5.11.0
+      svelte: 5.11.2
 
-  svelte@5.11.0:
+  svelte@5.11.2:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@jridgewell/sourcemap-codec': 1.5.0
