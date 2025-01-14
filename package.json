@@ -27,7 +27,7 @@
     "@lightwing/eslint-config": "^1.0.93",
     "@sveltejs/vite-plugin-svelte": "^5.0.1",
     "@tsconfig/svelte": "^5.0.4",
-    "electron": "^33.2.1",
+    "electron": "^34.0.0",
     "electron-builder": "^25.1.8",
     "eslint": "^9.16.0",
     "eslint-plugin-svelte": "^2.46.1",
