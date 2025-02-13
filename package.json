@@ -17,29 +17,35 @@
   },
   "dependencies": {
     "@doubleshot/nest-electron": "^0.2.6",
-    "@nestjs/common": "^11.0.6",
-    "@nestjs/core": "^11.0.6",
-    "@nestjs/microservices": "^11.0.6",
+    "@nestjs/common": "^11.0.9",
+    "@nestjs/core": "^11.0.9",
+    "@nestjs/microservices": "^11.0.9",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1"
   },
   "devDependencies": {
-    "@lightwing/eslint-config": "^1.0.102",
+    "@lightwing/eslint-config": "^1.0.104",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "@tsconfig/svelte": "^5.0.4",
-    "electron": "^34.0.1",
+    "electron": "^34.2.0",
     "electron-builder": "^25.1.8",
-    "eslint": "^9.19.0",
+    "eslint": "^9.20.1",
     "eslint-plugin-svelte": "^2.46.1",
     "lint-staged": "^15.4.3",
     "rimraf": "^6.0.1",
     "simple-git-hooks": "^2.11.1",
-    "svelte": "^5.19.4",
+    "svelte": "^5.20.0",
     "svelte-check": "^4.1.4",
     "tslib": "^2.8.1",
     "typescript": "^5.7.3",
-    "vite": "^6.0.11",
+    "vite": "^6.1.0",
     "vite-plugin-doubleshot": "^0.0.17"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@nestjs/core",
+      "electron"
+    ]
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
