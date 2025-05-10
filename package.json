@@ -31,7 +31,7 @@
     "electron-builder": "^26.0.0",
     "eslint": "^9.20.1",
     "eslint-plugin-svelte": "^3.0.0",
-    "lint-staged": "^15.4.3",
+    "lint-staged": "^16.0.0",
     "rimraf": "^6.0.1",
     "simple-git-hooks": "^2.11.1",
     "svelte": "^5.20.0",
