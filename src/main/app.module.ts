@@ -27,6 +27,10 @@ import { AppService } from './app.service'
         ? process.env.DS_RENDERER_URL
         : `file://${join(app.getAppPath(), 'dist/render/index.html')}`
 
+      if (!URL) {
+        throw new Error('No renderer URL defined')
+      }
+
       win.loadURL(URL)
 
       return { win }

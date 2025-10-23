@@ -1,0 +1,26 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "baseUrl": ".",
+    "moduleResolution": "bundler",
+    "paths": {
+      "@render/*": ["src/render/*"],
+      "@main/*": ["src/main/*"]
+    },
+    "types": ["svelte", "./src/preload"],
+    "allowJs": true,
+    "checkJs": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/render/**/*.ts",
+    "src/render/**/*.js",
+    "src/render/**/*.svelte",
+    "src/main/**/*.types.ts",
+    "src/preload/**/*.d.ts"
+  ]
+}
