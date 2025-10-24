@@ -10,7 +10,10 @@
     "debug": "rimraf dist && vite -- --dsb-debug",
     "build": "rimraf dist && vite build",
     "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "typecheck": "svelte-check --tsconfig ./tsconfig.render.json",
+    "typecheck:main": "tsc -p ./tsconfig.main.json --noEmit",
+    "typecheck:preload": "tsc -p ./tsconfig.preload.json --noEmit",
+    "check": "npm run typecheck && npm run typecheck:main && npm run typecheck:preload",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "postinstall": "electron-builder install-app-deps"
