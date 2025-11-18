@@ -47,7 +47,8 @@
   "pnpm": {
     "onlyBuiltDependencies": [
       "@nestjs/core",
-      "electron"
+      "electron",
+      "esbuild"
     ]
   },
   "simple-git-hooks": {
