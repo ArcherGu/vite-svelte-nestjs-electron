@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang='ts'>
   import { onMount } from 'svelte'
 
   const { sendMsg: sendMsgToMainProcess, onReplyMsg } = window.electron
@@ -22,9 +22,11 @@
           logOutput.scrollTop = logOutput.scrollHeight
         }
       }, 100)
-    } catch (error) {
+    }
+    catch (error) {
       console.error(error)
-    } finally {
+    }
+    finally {
       isSending = false
     }
   }
@@ -36,42 +38,42 @@
   })
 </script>
 
-<div class="app-container">
-  <header class="app-header">
-    <div class="logo-container">
-      <img alt="logo" src="./assets/logo.png" class="logo" />
+<div class='app-container'>
+  <header class='app-header'>
+    <div class='logo-container'>
+      <img alt='logo' src='./assets/logo.png' class='logo' />
     </div>
-    <p class="app-subtitle">Modern desktop application built with Vite + NestJS + Electron</p>
+    <p class='app-subtitle'>Modern desktop application built with Vite + NestJS + Electron</p>
   </header>
 
-  <main class="app-main">
-    <div class="hello-world">
-      <div class="card">
-        <div class="card-body">
-          <div class="log-section">
-            <label class="label" for="log">Message Log</label>
+  <main class='app-main'>
+    <div class='hello-world'>
+      <div class='card'>
+        <div class='card-body'>
+          <div class='log-section'>
+            <label class='label' for='log'>Message Log</label>
             <textarea
               bind:this={logOutput}
               bind:value={log}
-              class="log-output"
-              placeholder="Message logs will appear here..."
+              class='log-output'
+              placeholder='Message logs will appear here...'
               readonly
             ></textarea>
 
-            <div class="log-actions">
-              <p class="card-description">Communicate with the main process</p>
-              <button class="btn btn-secondary btn-sm" disabled={!log} onclick={() => (log = '')}> Clear Log </button>
+            <div class='log-actions'>
+              <p class='card-description'>Communicate with the main process</p>
+              <button class='btn btn-secondary btn-sm' disabled={!log} onclick={() => (log = '')}> Clear Log </button>
             </div>
           </div>
 
-          <div class="input-section">
-            <label class="label" for="msg">Send Message</label>
-            <div class="input-group">
+          <div class='input-section'>
+            <label class='label' for='msg'>Send Message</label>
+            <div class='input-group'>
               <input
                 bind:value={msg}
-                type="text"
-                class="input"
-                placeholder="Enter message to send to main process..."
+                type='text'
+                class='input'
+                placeholder='Enter message to send to main process...'
                 disabled={isSending}
                 onkeydown={(e) => {
                   if (e.key === 'Enter') {
@@ -79,7 +81,7 @@
                   }
                 }}
               />
-              <button class="btn btn-primary" disabled={!msg.trim() || isSending} onclick={sendMsg}>
+              <button class='btn btn-primary' disabled={!msg.trim() || isSending} onclick={sendMsg}>
                 {#if isSending}
                   Sending...
                 {:else}
@@ -93,7 +95,7 @@
     </div>
   </main>
 
-  <footer class="app-footer">
+  <footer class='app-footer'>
     <p>Fast Development · Efficient Build · Modern Experience</p>
   </footer>
 </div>
