@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@doubleshot/nest-electron':
         specifier: ^0.2.11
-        version: 0.2.11(@nestjs/common@11.1.16(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.16)(@nestjs/microservices@11.1.16)(electron@40.7.0)(rxjs@7.8.2)
+        version: 0.2.11(@nestjs/common@11.1.16(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.16)(@nestjs/microservices@11.1.16)(electron@40.8.0)(rxjs@7.8.2)
       '@nestjs/common':
         specifier: ^11.1.14
         version: 11.1.16(reflect-metadata@0.2.2)(rxjs@7.8.2)
@@ -32,13 +32,13 @@ importers:
         version: 1.0.147(@typescript-eslint/rule-tester@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.56.1(typescript@5.9.3))(@typescript-eslint/utils@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.4.22)(eslint-plugin-svelte@3.15.0(eslint@10.0.2(jiti@2.6.1))(svelte@5.53.7))(eslint@10.0.2(jiti@2.6.1))(svelte-eslint-parser@1.4.1(svelte@5.53.7))(typescript@5.9.3)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^7.0.0
-        version: 7.0.0(svelte@5.53.7)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
+        version: 7.0.0(svelte@5.53.7)(vite@7.3.1(@types/node@25.3.5)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
       '@tsconfig/svelte':
         specifier: ^5.0.8
         version: 5.0.8
       electron:
         specifier: ^40.6.1
-        version: 40.7.0
+        version: 40.8.0
       electron-builder:
         specifier: ^26.8.1
         version: 26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1))
@@ -71,10 +71,10 @@ importers:
         version: 5.9.3
       vite:
         specifier: ^7.3.1
-        version: 7.3.1(@types/node@25.3.3)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2)
+        version: 7.3.1(@types/node@25.3.5)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2)
       vite-plugin-doubleshot:
         specifier: ^0.0.20
-        version: 0.0.20(@swc/core@1.11.4)(electron-builder@26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1)))(electron@40.7.0)(esbuild@0.27.2)(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(typescript@5.9.3)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))(yaml@2.8.2)
+        version: 0.0.20(@swc/core@1.11.4)(electron-builder@26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1)))(electron@40.8.0)(esbuild@0.27.2)(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(typescript@5.9.3)(vite@7.3.1(@types/node@25.3.5)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))(yaml@2.8.2)
 
 packages:
 
@@ -1320,11 +1320,11 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@24.11.0':
-    resolution: {integrity: sha512-fPxQqz4VTgPI/IQ+lj9r0h+fDR66bzoeMGHp8ASee+32OSGIkeASsoZuJixsQoVef1QJbeubcPBxKk22QVoWdw==}
+  '@types/node@24.11.2':
+    resolution: {integrity: sha512-HTsxyfkxTNxOXBsEdgIOzbMgBjDGPvkTfw0B1m09j1LFPk8u3tSL8SNBRTSc381wXXX/Wp93qPi1kQXwnWuHgA==}
 
-  '@types/node@25.3.3':
-    resolution: {integrity: sha512-DpzbrH7wIcBaJibpKo9nnSQL0MTRdnWttGyE5haGwK86xgMOkFLp7vEyfQPGLOJh5wNYiJ3V9PmUMDhV9u8kkQ==}
+  '@types/node@25.3.5':
+    resolution: {integrity: sha512-oX8xrhvpiyRCQkG1MFchB09f+cXftgIXb3a7UUa4Y3wpmZPw5tyZGTLWhlESOLq1Rq6oDlc8npVU2/9xiCuXMA==}
 
   '@types/plist@3.0.5':
     resolution: {integrity: sha512-E6OCaRmAe4WDmWNsL/9RMqdkkzDCY1etutkflWk4c+AcjDU07Pcz1fQwTX0TQz+Pxqn9i4L1TU3UFpjnrcDgxA==}
@@ -1967,8 +1967,8 @@ packages:
     resolution: {integrity: sha512-bO3y10YikuUwUuDUQRM4KfwNkKhnpVO7IPdbsrejwN9/AABJzzTQ4GeHwyzNSrVO+tEH3/Np255a3sVZpZDjvg==}
     engines: {node: '>=8.0.0'}
 
-  electron@40.7.0:
-    resolution: {integrity: sha512-oQe76S/3V1rcb0+i45hAxnCH8udkRZSaHUNwglzNAEKbB94LSJ1qwbFo8+uRc2UsYZgCqSIMRcyX40GyOkD+Xw==}
+  electron@40.8.0:
+    resolution: {integrity: sha512-WoPq0Nr9Yx3g7T6VnJXdwa/rr2+VRyH3a+K+ezfMKBlf6WjxE/LmhMQabKbb6yjm9RbZhJBRcYyoLph421O2mQ==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -4261,7 +4261,7 @@ snapshots:
       ajv: 6.14.0
       ajv-keywords: 3.5.2(ajv@6.14.0)
 
-  '@doubleshot/builder@0.0.16(@swc/core@1.11.4)(electron-builder@26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1)))(electron@40.7.0)(esbuild@0.27.2)(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(typescript@5.9.3)(yaml@2.8.2)':
+  '@doubleshot/builder@0.0.16(@swc/core@1.11.4)(electron-builder@26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1)))(electron@40.8.0)(esbuild@0.27.2)(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(typescript@5.9.3)(yaml@2.8.2)':
     dependencies:
       bundle-require: 5.1.0(esbuild@0.27.2)
       cac: 6.7.14
@@ -4272,7 +4272,7 @@ snapshots:
       tsup: 8.5.1(@swc/core@1.11.4)(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(typescript@5.9.3)(yaml@2.8.2)
       wait-on: 9.0.3
     optionalDependencies:
-      electron: 40.7.0
+      electron: 40.8.0
       electron-builder: 26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1))
     transitivePeerDependencies:
       - '@microsoft/api-extractor'
@@ -4286,12 +4286,12 @@ snapshots:
       - typescript
       - yaml
 
-  '@doubleshot/nest-electron@0.2.11(@nestjs/common@11.1.16(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.16)(@nestjs/microservices@11.1.16)(electron@40.7.0)(rxjs@7.8.2)':
+  '@doubleshot/nest-electron@0.2.11(@nestjs/common@11.1.16(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.16)(@nestjs/microservices@11.1.16)(electron@40.8.0)(rxjs@7.8.2)':
     dependencies:
       '@nestjs/common': 11.1.16(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/core': 11.1.16(@nestjs/common@11.1.16(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/microservices@11.1.16)(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/microservices': 11.1.16(@nestjs/common@11.1.16(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.16)(reflect-metadata@0.2.2)(rxjs@7.8.2)
-      electron: 40.7.0
+      electron: 40.8.0
       rxjs: 7.8.2
 
   '@dprint/formatter@0.5.1': {}
@@ -5053,14 +5053,14 @@ snapshots:
     dependencies:
       acorn: 8.16.0
 
-  '@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.53.7)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))':
+  '@sveltejs/vite-plugin-svelte@7.0.0(svelte@5.53.7)(vite@7.3.1(@types/node@25.3.5)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))':
     dependencies:
       deepmerge: 4.3.1
       magic-string: 0.30.21
       obug: 2.1.1
       svelte: 5.53.7
-      vite: 7.3.1(@types/node@25.3.3)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2)
-      vitefu: 1.1.2(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
+      vite: 7.3.1(@types/node@25.3.5)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2)
+      vitefu: 1.1.2(vite@7.3.1(@types/node@25.3.5)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
 
   '@swc/core-darwin-arm64@1.11.4':
     optional: true
@@ -5136,7 +5136,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.2.0
       '@types/keyv': 3.1.4
-      '@types/node': 24.11.0
+      '@types/node': 24.11.2
       '@types/responselike': 1.0.3
 
   '@types/debug@4.1.12':
@@ -5149,7 +5149,7 @@ snapshots:
 
   '@types/fs-extra@9.0.13':
     dependencies:
-      '@types/node': 25.3.3
+      '@types/node': 25.3.5
 
   '@types/http-cache-semantics@4.2.0': {}
 
@@ -5157,7 +5157,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.2
 
   '@types/mdast@4.0.4':
     dependencies:
@@ -5165,23 +5165,23 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@24.11.0':
+  '@types/node@24.11.2':
     dependencies:
       undici-types: 7.16.0
 
-  '@types/node@25.3.3':
+  '@types/node@25.3.5':
     dependencies:
       undici-types: 7.18.2
 
   '@types/plist@3.0.5':
     dependencies:
-      '@types/node': 25.3.3
+      '@types/node': 25.3.5
       xmlbuilder: 15.1.1
     optional: true
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.2
 
   '@types/trusted-types@2.0.7': {}
 
@@ -5192,7 +5192,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.2
     optional: true
 
   '@typescript-eslint/eslint-plugin@8.56.1(@typescript-eslint/parser@8.56.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3)':
@@ -5957,10 +5957,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron@40.7.0:
+  electron@40.8.0:
     dependencies:
       '@electron/get': 2.0.3
-      '@types/node': 24.11.0
+      '@types/node': 24.11.2
       extract-zip: 2.0.1
     transitivePeerDependencies:
       - supports-color
@@ -8339,10 +8339,10 @@ snapshots:
       extsprintf: 1.4.1
     optional: true
 
-  vite-plugin-doubleshot@0.0.20(@swc/core@1.11.4)(electron-builder@26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1)))(electron@40.7.0)(esbuild@0.27.2)(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(typescript@5.9.3)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))(yaml@2.8.2):
+  vite-plugin-doubleshot@0.0.20(@swc/core@1.11.4)(electron-builder@26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1)))(electron@40.8.0)(esbuild@0.27.2)(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(typescript@5.9.3)(vite@7.3.1(@types/node@25.3.5)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))(yaml@2.8.2):
     dependencies:
-      '@doubleshot/builder': 0.0.16(@swc/core@1.11.4)(electron-builder@26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1)))(electron@40.7.0)(esbuild@0.27.2)(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(typescript@5.9.3)(yaml@2.8.2)
-      vite: 7.3.1(@types/node@25.3.3)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2)
+      '@doubleshot/builder': 0.0.16(@swc/core@1.11.4)(electron-builder@26.8.1(electron-builder-squirrel-windows@26.8.1(dmg-builder@26.8.1)))(electron@40.8.0)(esbuild@0.27.2)(jiti@2.6.1)(postcss@8.5.6)(tsx@4.19.2)(typescript@5.9.3)(yaml@2.8.2)
+      vite: 7.3.1(@types/node@25.3.5)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2)
     transitivePeerDependencies:
       - '@microsoft/api-extractor'
       - '@swc/core'
@@ -8357,7 +8357,7 @@ snapshots:
       - typescript
       - yaml
 
-  vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2):
+  vite@7.3.1(@types/node@25.3.5)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2):
     dependencies:
       esbuild: 0.27.2
       fdir: 6.5.0(picomatch@4.0.3)
@@ -8366,15 +8366,15 @@ snapshots:
       rollup: 4.55.1
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 25.3.3
+      '@types/node': 25.3.5
       fsevents: 2.3.3
       jiti: 2.6.1
       tsx: 4.19.2
       yaml: 2.8.2
 
-  vitefu@1.1.2(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2)):
+  vitefu@1.1.2(vite@7.3.1(@types/node@25.3.5)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2)):
     optionalDependencies:
-      vite: 7.3.1(@types/node@25.3.3)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2)
+      vite: 7.3.1(@types/node@25.3.5)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2)
 
   vue-eslint-parser@10.4.0(eslint@10.0.2(jiti@2.6.1)):
     dependencies:
