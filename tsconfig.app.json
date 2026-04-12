@@ -1,12 +1,10 @@
 {
+  "extends": "@tsconfig/svelte/tsconfig.json",
   "compilerOptions": {
     "composite": true,
-    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "target": "ES2023",
-    "lib": ["ES2023"],
     "moduleDetection": "force",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
     "module": "ESNext",
     "moduleResolution": "bundler",
     "paths": {
@@ -14,24 +12,23 @@
       "@main/*": ["./src/main/*"]
     },
     "resolveJsonModule": true,
-    "types": ["node"],
-    "allowImportingTsExtensions": true,
+    "types": ["svelte", "vite/client", "./src/preload"],
+    "allowJs": true,
+    "checkJs": true,
     "strict": true,
     "exactOptionalPropertyTypes": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
     "noUncheckedIndexedAccess": true,
     "noEmit": true,
-    "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "verbatimModuleSyntax": true,
     "skipLibCheck": true
   },
   "include": [
-    "vite.config.ts",
-    "src/main/**/*.ts",
-    "src/preload/**/*.ts",
-    "src/preload/**/*.d.ts",
-    "src/main/**/*.types.ts"
+    "src/render/**/*.ts",
+    "src/render/**/*.js",
+    "src/render/**/*.svelte",
+    "src/render/**/*.d.ts",
+    "src/main/**/*.types.ts",
+    "src/preload/**/*.d.ts"
   ]
 }
