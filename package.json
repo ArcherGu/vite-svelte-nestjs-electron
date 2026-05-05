@@ -2,7 +2,7 @@
   "name": "vite-svelte-nestjs-electron",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.33.2",
+  "packageManager": "pnpm@10.33.3",
   "description": "Vite + Svelte + Electron with Doubleshot, so fast! ⚡",
   "main": "dist/main/index.cjs",
   "scripts": {
