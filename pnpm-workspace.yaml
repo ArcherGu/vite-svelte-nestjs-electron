@@ -1,0 +1,12 @@
+allowBuilds:
+  '@nestjs/core': true
+  electron: true
+  electron-winstaller: true
+  esbuild: true
+  simple-git-hooks: true
+
+shellEmulator: true
+trustPolicy: no-downgrade
+trustPolicyExclude:
+  - chokidar@4.0.3
+  - semver@6.3.1
