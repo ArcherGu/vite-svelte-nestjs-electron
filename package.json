@@ -31,7 +31,7 @@
     "@tsconfig/svelte": "^5.0.8",
     "@types/node": "^25.9.5",
     "@typescript/native": "npm:typescript@7.0.2",
-    "electron": "^44.0.0",
+    "electron": "^45.0.0",
     "electron-builder": "^26.15.3",
     "eslint": "^10.6.0",
     "eslint-plugin-svelte": "^3.20.0",
