@@ -1,0 +1,33 @@
+diff --git a/index.js b/index.js
+--- a/index.js
++++ b/index.js
+@@ -48,2 +48,3 @@
+ function propertyIsUnsafe(target, key) {
++	if (key === '__proto__') return true
+ 	return propertyIsOnObject(target, key) // Properties are safe to merge if they don't exist in the target yet,
+@@ -57,2 +58,3 @@
+ 		getKeys(target).forEach(function(key) {
++			if (key === '__proto__') return
+ 			destination[key] = cloneUnlessOtherwiseSpecified(target[key], options)
+diff --git a/dist/cjs.js b/dist/cjs.js
+--- a/dist/cjs.js
++++ b/dist/cjs.js
+@@ -73,2 +73,3 @@
+ function propertyIsUnsafe(target, key) {
++	if (key === '__proto__') return true
+ 	return propertyIsOnObject(target, key) // Properties are safe to merge if they don't exist in the target yet,
+@@ -82,2 +83,3 @@
+ 		getKeys(target).forEach(function(key) {
++			if (key === '__proto__') return
+ 			destination[key] = cloneUnlessOtherwiseSpecified(target[key], options);
+diff --git a/dist/umd.js b/dist/umd.js
+--- a/dist/umd.js
++++ b/dist/umd.js
+@@ -77,2 +77,3 @@
+ 	function propertyIsUnsafe(target, key) {
++	if (key === '__proto__') return true
+ 		return propertyIsOnObject(target, key) // Properties are safe to merge if they don't exist in the target yet,
+@@ -86,2 +87,3 @@
+ 			getKeys(target).forEach(function(key) {
++			if (key === '__proto__') return
+ 				destination[key] = cloneUnlessOtherwiseSpecified(target[key], options);
