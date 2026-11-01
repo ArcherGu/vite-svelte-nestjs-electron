@@ -1,0 +1,2 @@
+# Unified diff context markers precede tabs in third-party source.
+patches/*.patch whitespace=-space-before-tab

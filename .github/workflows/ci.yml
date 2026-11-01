@@ -58,3 +58,6 @@ jobs:
 
       - name: Build
         run: pnpm run build
+
+      - name: Dependency security tests
+        run: pnpm run test:dependencies
